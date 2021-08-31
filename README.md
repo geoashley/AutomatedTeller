@@ -4,7 +4,7 @@ With command line GUI for ATM Menu.
 
 ## Installation
 ```bash
-$ ./gradlew clean build shadowJar copyJar
+./gradlew clean build shadowJar copyJar
 ```
 ## Database 
 Default H2 in memory database config is provided in `resources/database.properties`.
@@ -18,7 +18,7 @@ hibernate.show_sql=false
 ```
 ## Testing
 ```bash
-$ java -jar out/atm-all.jar
+java -jar out/atm-all.jar
 ```
 `resources/import.sql `contains the default data that is loaded to the db at startup. Please use the data from the import for test as needed.
 The default customers loaded in the file are below for testing purpose.

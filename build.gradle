@@ -46,6 +46,6 @@ application {
 }
 
 task copyJar(type: Copy) {
-    from 'build/libs/atm-all.jar'
+    from shadowJar
     into "out"
 }
